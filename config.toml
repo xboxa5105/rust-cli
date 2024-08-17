@@ -1,0 +1,2 @@
+[alias.general]
+aws_sco_ops_container_dev = "aws ecs execute-command --cluster sco-ecs-cluster --task  --container sco-ops --interactive --command /bin/bash --region us-west-2"
